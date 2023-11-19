@@ -4,7 +4,8 @@ import time
 letter = ""
 def check(thing, letter):
     if thing[0] != letter:    
-        print("the begining is " + letter)
+        print("the begining is " + letter + " but not " + thing[0])
+        manything()
     else:
         pass
 def manything(letter):
